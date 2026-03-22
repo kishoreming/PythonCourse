@@ -4,3 +4,4 @@ password = ""
 for i in range(8):
     password = password + random.choice(characters)
 print("Random Password =", password)
+print("Password Length =", len(password))
